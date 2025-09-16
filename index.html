@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap Titanica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <header id="game-ui">
+            <div id="score">Score: 0</div>
+            <div id="difficulty">Difficulté: 1</div>
+            <div id="accuracy">Précision: N/A</div>
+        </header>
+
+        <section id="titan-area">
+            <div id="titan-hp-container">
+                <div id="titan-hp-bar"></div>
+            </div>
+            <div id="titan-sprite">TITAN</div>
+            <div id="combo-display">Combo: 0</div>
+        </section>
+
+        <div id="feedback-display"></div>
+
+        <section id="rhythm-lane">
+            <div id="target-marker"></div>
+        </section>
+
+        <footer id="action-zone">
+            TAPPER ICI
+        </footer>
+
+        <div id="game-overlay" class="active">
+            <div id="overlay-content">
+                <h1>Tap Titanica</h1>
+                <p>Tapez en rythme pour vaincre le Titan. La difficulté s'adaptera à votre performance.</p>
+                <button id="start-button">Commencer le Combat</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
